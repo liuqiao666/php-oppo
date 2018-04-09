@@ -1,0 +1,200 @@
+body{
+ font:14px "microsoft yahei",Arial,Helvetica,sans-serif;
+ color:#838383;
+ margin:0;
+ padding:0;
+ background:#F7F7F7;
+}
+#header,#nav,#banner,#main,#foot_box,#footer{
+ margin:0 auto;
+}
+a{
+ color:#838383;
+ text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,li{
+ margin:0;
+ padding:0;
+ list-style:none;
+ color:black;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+
+/* 头部 */
+#header{
+ width:1350px;
+ height:100px;
+}
+#header ul{
+ width:1176px;
+ padding:0 87px;
+}
+.header_top{
+ height: 29px;
+ background:#009B72;
+}
+.header_top  li{
+ border-left:1px solid  #47b488;
+ float:right;
+ padding:5px  20px ;
+}
+.header_top  li a{
+ color:#fff;
+}
+.header_top  li:hover{
+ background: #47B488;
+}
+.header_bottom{
+ height: 70px;
+ background:#fff;
+}
+.header_bottom p{
+ float:left;
+ padding:18px 0px 18px 0px;
+}
+.header_bottom li{
+ float:right;
+ line-height:70px;
+ padding:0 20px 0 20px;
+}
+.header_bottom li a{
+ color:#838383;
+}
+.header_bottom li a:hover{
+ border-bottom:2px solid #009B72;
+ padding-bottom:5px;
+}
+.header_bottom li.welcome a{
+ border-left:1px solid #ddd;
+}
+/* 底部 */
+#foot_box{
+ width:1176px;
+ height:170px;
+ border-bottom:1px solid #ddd;
+}
+.lf_aside ul{
+ float:left;
+ padding-right:130px;
+}
+.lf_aside ul p{
+ padding-bottom:10px;
+}
+.lf_aside ul p a{
+ font-weight:bold;
+ color: black;
+}
+.lf_aside ul li{
+ padding-bottom:8px;
+}
+.rt_aside{
+ float:right;
+ padding-top:10px;
+}
+.rt_aside p{
+ padding-bottom:8px;
+}
+.rt_aside p.tel{
+ font-size: 28px;
+}
+.rt_aside p.rx{
+ font-size:15px;
+ padding-left:15px;
+}
+/* 底部 */
+#footer{
+ width:1176px;
+}
+/* 底部：左边 */
+.footer_lf{
+ width:680px;
+ height:60px;
+ float:left;
+}
+.footer_lf a{
+ height:60px;
+ line-height:60px;
+}
+.footer_lf b{
+ display:block;
+ width:24px;
+ height:25px;
+ background:url(../images/icon-identification.png) no-repeat;
+ float:left;
+ margin-left:10px;
+ margin-top:15px;
+}
+.footer_lf b:hover{
+ background:url(../images/icon-identification.png) no-repeat -24px 0;
+}
+/* 底部：右边 */
+.footer_rt{
+ width:190px;
+ height:60px;
+ float:right;
+}
+.footer_rt ul li{
+ width:40px;
+ height:40px;
+ float:right;
+ margin-top:5px;
+ position:relative;
+}
+.about{
+ display:block;
+ width:72px;
+ height:60px;
+ line-height:60px;
+}
+/*微信*/
+li.wx{
+ position:relative;
+}
+li.wx img{
+ position:absolute;
+ top:-217px;
+ left:-40px;
+ display:none;
+}
+li.wx:hover img{
+ display:block;
+}
+/* 支付宝 */
+li.zfb{
+ position:relative;
+}
+li.fwc img{
+ position:absolute;
+ top:-217px;
+ left:-40px;
+ display:none;
+}
+li.fwc:hover img{
+ display:block;
+}
+
+li.wb a{
+ display:block;
+ width:40px;
+ height:40px;
+}
+li.wb a{
+ background:url(../images/picture.png) no-repeat 0px -140px;
+}
+li.wx{
+ background:url(../images/picture.png) no-repeat 0px -192px;
+}
+li.fwc{
+ background:url(../images/picture.png) no-repeat 0px -283px;
+}
+li.wb a:hover {
+ background:url(../images/picture.png) no-repeat 0px -99px;
+}
+li.wx:hover{
+ background:url(../images/picture.png) no-repeat -1px -233px;
+}
+li.fwc:hover{
+ background:url(../images/picture.png) no-repeat -1px -322px;
+}

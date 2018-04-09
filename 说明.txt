@@ -1,0 +1,3 @@
+1.把oppo.sql文件导入数据库中
+2.把oppo文件夹放到www根目录下
+3.网站的人口文件是index.php

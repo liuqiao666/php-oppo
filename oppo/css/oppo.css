@@ -1,0 +1,61 @@
+
+/*广告 */
+#banner{
+ width:1350px;
+ height:562px;
+ margin-bottom:10px;
+}
+#slider{
+ width:1349px;
+ height:562px;
+ position:relative;
+ overflow:hidden;
+}
+#imgs{
+ position:absolute;
+ top:0;
+ left:0;
+ height:562px;
+}
+#imgs li{
+ float:left;
+ z-index:0;
+}
+#indexs{
+position:absolute;
+top:500px;
+left:700px;
+}
+#indexs li{
+ width:15px;
+ height:15px;
+ border-radius:50%;
+ background:#7B7B7B;
+ float:left;
+ margin-left:10px;
+}
+#indexs li:hover,#slider #indexs li.hover{
+ background:#fff;
+ border:1px solid #009B72;
+ box-sizing:border-box;
+}
+/*主要部分 */
+#main{
+  width:1350px;
+  height:250px;
+  background:#F7F7F7;
+  padding-top:10px;
+}
+#main div ul li{
+ width:440px;
+ height:226px;
+ float:left;
+
+}
+#main div ul li.mid{
+ padding-left:15px;
+ padding-right:15px;
+}
+
+
+

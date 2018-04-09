@@ -1,0 +1,156 @@
+#banner{
+    width:1350px;
+    height:500px;
+}
+#banner p{
+    padding:10px 60px 15px 87px;
+}
+#main{
+    width:1350px ;
+    height:1100px;
+
+}
+#main div.box{
+    padding:0 105px 15px 87px;
+    height:27px;
+
+}
+#main .self{
+    padding:0 60px 15px 87px;
+    width:1203px;
+    height:280px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#main .self li{
+    float:left;
+    width:280px;
+    height:140px;
+
+}
+
+#main .self1{
+    padding:0 60px 15px 87px;
+    width:1203px;
+    height:300px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+}
+#main .self1 li{
+    width:395px;
+    height:141px;
+    float:left;
+    margin-right:5px;
+    margin-bottom:10px;
+    position: relative;
+}
+.wen{
+    padding:0 60px 15px 87px;
+    width:1203px;
+}
+.wen ul li{
+    width:570px;
+ }
+.wen ul li b{
+    display: inline-block;
+    width:21px;
+    height:21px;
+    float: right;
+    margin-right:10px;
+    background: url(../images/sprite-icons.png) no-repeat -184px -580px;
+}
+.wen ul li b:hover{
+    background: url(../images/sprite-icons.png) no-repeat -184px -602px;
+}
+.wen ul li div{
+    /*border:1px solid black;*/
+    margin-top:10px;
+    box-sizing: border-box;
+}
+.tittle{
+    width:570px;
+    height:50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+li.accordion a{
+    padding-top:10px;
+}
+.content p{
+    padding:10px;
+}
+.accordion>.title{
+    cursor:pointer;
+    float: right;
+}
+.accordion>.content{
+    /*边框#aaa,内边距6,高度60*/
+    height:0;
+    overflow:hidden;
+    transition:all .5s linear;
+    border:1px solid #ddd;
+    margin-bottom:10px;
+    z-index: 1;
+}
+.accordion>.content.open{
+    height:210px;
+    background-color:#fff;
+}
+i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #009B72;
+    text-align: center;
+    font-style: normal;
+    color: #FFf;
+    margin-right:3px;
+}
+div.content1{
+    margin-bottom:10px;
+    position: relative;
+    z-index: 10;
+    width:1180px;
+}
+.content1 p{
+    width:256px;
+    height:310px;
+    text-align: center;
+    float: left;
+}
+.content1 b{
+    display: block;
+    width:256px;
+}
+.content1 p img{
+    padding:20px 10px 10px 10px;
+}
+.accordion1>.title1{
+    cursor:pointer;
+    float: right;
+}
+.accordion1>.content1{
+    height:0;
+    overflow:hidden;
+    background-color:#fff;
+    transition:all .5s linear;
+}
+.accordion1>.content1.open{
+    height:320px;
+    background-color:#fff;
+}
+.title1{
+    position: absolute;
+    top:95px;
+    left:339px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(../images/sprite-icons.png) no-repeat -187px -825px;
+}
+.title1:hover{
+    background: url(../images/sprite-icons.png) no-repeat -187px -795px;
+}

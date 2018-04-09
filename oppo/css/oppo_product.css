@@ -1,0 +1,229 @@
+
+/*主要部分 */
+#main{
+ width:1176px;
+ height:3150px;
+ background:#F7F7F7;
+ margin: 0 auto;
+}
+/* 上部分 */
+.up{
+ width:1176px;
+ height:780px;
+ color:#838383;
+}
+.up p{
+ padding:20px 0;
+}
+/* up下的左部分:oppo_lf */
+.oppo_lf{
+ width:770px;
+ height:720px;
+ float:left;
+}
+.up_lf{
+ width:770px;
+ float:left;
+ position:relative;
+}
+.up_lf img{
+ width:98.8%;
+}
+.up_lf {
+ padding-bottom:10px;
+ transition:transform 0.5s linear;
+}
+.up_lf:hover{
+ transform:scale(1.1);
+}
+.up_lf:hover::before{
+ transition: left 3s;
+ left: 1360px;
+}
+/* up下的右部分:oppo_rt  */
+.oppo_rt{
+ width:396px;
+ height:738px;
+ float:right;
+ position:relative;
+}
+.oppo_rt img{
+ width:100%;
+}
+.oppo_rt {
+ padding-bottom:10px;
+ transition:transform 0.5s linear;
+}
+.oppo_rt:hover{
+ transform:scale(1.1);
+}
+.oppo_rt:hover::before{
+ transition: left 3s;
+ left: 1360px;
+}
+/* up下的公共部分 */
+.up  a.number{
+ font-size:25px;
+ color:black;
+}
+a.btn{
+ display: block;
+ width: 126px;
+ height:30px;
+ color:#23A175;
+ border:1px solid #23A175;
+ border-radius:8px;
+ text-align:center;
+ margin-top:20px;
+ padding:5px 0;
+}
+/* ad的位置 */
+.ad{
+ position:absolute;
+ top:60px;
+ left:500px;
+ width:300px;
+ height:225px;
+
+}
+.ad span{
+ border:1px solid black;
+ text-align: center;
+ font-size:20px;
+ padding:0 8px;
+ border-radius: 5px;
+}
+.ad1{
+ position:absolute;
+ top:72px;
+ left:98px;
+
+}
+.ad1 span{
+ border:1px solid black;
+ text-align: center;
+ font-size:20px;
+ padding:0 8px;
+ border-radius: 5px;
+}
+.ad1 b{
+ position: absolute;
+ top:32px;
+ left:22px;
+ font-size: 20px;
+}
+.ad2{
+ color:#838383;
+ position:absolute;
+ top:61px;
+ left:120px;
+}
+/* a 的字体大小 */
+.ad a{
+ display:block;
+ line-height:1.8em;
+ font-size:16px;
+}
+.ad1 a{
+ display:block;
+ line-height:1.5em;
+ font-size:16px;
+}
+.ad2 a{
+ display:block;
+ line-height:1.5em;
+ font-size:16px;
+}
+.ad2 span{
+ border:1px solid black;
+ text-align: center;
+ font-size:20px;
+ padding:0 8px;
+ border-radius: 5px;
+}
+/* 中间部分 */
+.middle{
+ width:1176px;
+ height:1500px;
+ padding:100px 0;
+}
+p.product{
+ font-weight:bold;
+ font-size:24px;
+ text-align:center;
+ padding-bottom:30px;
+}
+p.product b{
+ display:block;
+ width:490px;
+ height:1px;
+ background:#ddd;
+ margin-top:12px;
+}
+.middle img{
+ width:65%;
+ padding-bottom:30px;
+}
+.middle ul{
+ width:1176px;
+ height:415px;
+}
+.middle ul div.xilie {
+ padding:20px 0;
+ width:1000px;
+ height:16px;
+ float:left;
+}
+.middle ul div.more{
+ float:right;
+ height:56px;
+ width:176px;
+ line-height:46px;
+}
+.middle ul div b{
+ padding:0 10px 0 0;
+}
+.middle ul li{
+ width:286px;
+ height:365px;
+ float:left;
+ margin:0px 5px 5px 0px;
+ background:#fff;
+ text-align:center;
+ position:relative;
+ transition:transform 0.5s linear;
+}
+.up_lf:hover{
+ transform:scale(1.1);
+}
+.middle ul li:hover{
+ transform:translate(0,5%);
+}
+.common{
+ margin-top:40px;
+ color: #fff;
+}
+.btn1{
+ display:block;
+ width:28px;
+ height:28px;
+ background:url(../images/icon-more.png) no-repeat 0 8px;
+ padding-top:8px;
+ padding-left:10px;
+ float:right;
+}
+/* 下部分 */
+.down{
+ width:1176px;
+ height:319px;
+ float:left;
+ padding:100px 0;
+}
+.down ul li{
+ width:583px;
+ height:299px;
+}
+
+
+
+

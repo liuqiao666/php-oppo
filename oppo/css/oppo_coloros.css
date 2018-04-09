@@ -1,0 +1,140 @@
+body{
+    font:14px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#838383;
+    margin:0;
+    padding:0;
+    background:#F7F7F7;
+}
+li{
+    list-style: none;
+}
+#header{
+    width:1203px;
+    height: 50px;
+    margin:0px 87px;
+}
+ img.logo{
+    float: left;
+    margin:0;
+    height: 50px;
+}
+#header ul li{
+    text-align: center;
+    float: right;
+
+    width:100px;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin:16px auto;
+}
+#main {
+    margin: 0 auto;
+    width:1350px;
+    height:150px;
+}
+#main ul{
+    width:1203px;
+    height:60px;
+    margin:0 87px 0 87px;
+}
+#main ul li{
+    width:380px;
+    height:70px;
+    float: left;
+    padding-left:20px;
+}
+li.middle{
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    padding-right:20px;
+}
+span{
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    display: inline-block;
+    width:75px;
+    height:61px;
+    float: left;
+    margin-right: 30px;
+}
+span.xc{
+    background: url(../images/coloros/icon.png) no-repeat 0 -4px;
+}
+span.tx{
+    background: url(../images/coloros/icon.png) no-repeat -208px -4px;
+}
+span.yy{
+    background: url(../images/coloros/yy.png) no-repeat 17px 11px;
+}
+h4{
+   float: left;
+    margin:10px 0;
+}
+#main label{
+    float: left;
+    width:220px;
+    height:10px;
+}
+.footer{
+    width:1350px;
+    height:60px;
+    text-align:center;
+    line-height:30px;
+    border-top:1px solid #ddd;
+}
+.footer ul{
+    width:1203px;
+    margin-left:235px;
+    height: 32px;
+    vertical-align: middle;
+
+}
+.footer ul li{
+    float: left;
+    width:100px;
+    height:30px;
+    border-right:1px solid #ddd;
+}
+.footer p{
+    margin:0 87px 0 87px;
+}
+.footer  b{
+    margin-left:30px;
+    margin-right: 10px;
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position:relative;
+}
+.wx_img{
+    position:absolute;
+    bottom:140%;
+    left:-25%;
+    display:none;
+}
+b.wx:hover .wx_img{
+    display: block;
+}
+.footer b.xl{
+    background: url(../images/coloros/foot_icon.png) no-repeat;
+}
+.footer b.wx{
+    background: url(../images/coloros/foot_icon.png) no-repeat -64px;
+
+
+
+}
+.footer b.xl:hover{
+    background: url(../images/coloros/foot_icon.png) no-repeat -32px;
+}
+.footer b.wx:hover{
+    background: url(../images/coloros/foot_icon.png) no-repeat -96px;
+}
